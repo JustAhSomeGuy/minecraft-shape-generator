@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const renderer = new THREE.WebGLRenderer({ canvas });
 
     renderer.setSize(600, 600);
-    document.getElementById("shape-container").appendChild(renderer.domElement);
 
     const geometry = new THREE.SphereGeometry(10, 32, 32);
     const material = new THREE.MeshBasicMaterial({ color: 0x44aa88, wireframe: true });
