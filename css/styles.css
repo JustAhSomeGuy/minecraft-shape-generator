@@ -26,3 +26,8 @@ main {
     background-color: #161b22;
     border: 1px solid #30363d;
 }
+
+#shapeCanvas {
+    background-color: black;
+    border: 2px solid red;
+}
