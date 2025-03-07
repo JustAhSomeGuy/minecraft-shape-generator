@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>minecraft-shape-generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="build/three.core.min.js"></script>
   </head>
   <body>
-    <h1>Welcome to Minecraft Shape Generator!</h1>
-      <p>This site is under construction. Stay tuned for updates!</p>
+    <header>
+      <h1>Minecraft Shape Generator</h1>
+    </header>
+
+    <main>
+      <div id="shape-container">
+        <canvas id="shapeCanvas"></canvas>
+      </div>
+      <div id="controls">
+        <label for="shapeSize">Size:</label>
+        <input type="range" id="shapeSize" min="5" max="50" value="20">
+      </div>
+    </main>
+    <script src="js/app.js"></script>
   </body>
 </html>
